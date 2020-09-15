@@ -1,0 +1,41 @@
+{
+  "name": "weirshi-utils",
+  "version": "1.0.1",
+  "description": "Tool functions in daily work",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "jest ./test",
+    "build": "rollup -c"
+  },
+  "keywords": [
+    "tools",
+    "utils",
+    "function"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeirShi/w-utils.git"
+  },
+  "author": "WeirShi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WeirShi/w-utils/issues"
+  },
+  "homepage": "https://github.com/WeirShi/w-utils/#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.11.5"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.11.5",
+    "babel-preset-latest": "^6.24.1",
+    "docdash": "^1.2.0",
+    "jest": "^26.4.2",
+    "minami": "^1.2.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  },
+  "files":[
+    "dist/main.js"
+  ]
+}
