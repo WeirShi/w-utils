@@ -9,7 +9,7 @@ const debounce = function (fn, interval) {
     var timer; // 定时器实例
     var gapTime = interval || 300; // 间隔时间
     return function () {
-        clearTimeout();
+        timer && clearTimeout(timer);
         var context = this;
         var args = arguments;
         timer = setInterval(function () {

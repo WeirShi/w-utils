@@ -1,6 +1,6 @@
 {
-  "name": "weirshi-utils",
-  "version": "1.0.1",
+  "name": "weir-utils",
+  "version": "1.0.0",
   "description": "Tool functions in daily work",
   "main": "dist/main.js",
   "scripts": {
@@ -34,8 +34,5 @@
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-uglify": "^6.0.4"
-  },
-  "files":[
-    "dist/main.js"
-  ]
+  }
 }
